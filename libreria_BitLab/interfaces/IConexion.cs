@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using libreria_BitLab.entidades;
+using Microsoft.EntityFrameworkCore;
 
 namespace libreria_BitLab.interfaces
 {
@@ -6,7 +7,7 @@ namespace libreria_BitLab.interfaces
     {
         string? StringConexion { get; set; }
 
-        //DbSet<Pacientes>? Pacientes { get; set; }
+        DbSet<Roles>? Roles { get; set; }
         //DbSet<Enfermedades>? Enfermedades { get; set; }
 
         int SaveChanges();

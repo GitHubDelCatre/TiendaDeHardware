@@ -1,4 +1,5 @@
-﻿using libreria_BitLab.interfaces;
+﻿using libreria_BitLab.entidades;
+using libreria_BitLab.interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace libreria_BitLab.implementaciones
@@ -13,9 +14,8 @@ namespace libreria_BitLab.implementaciones
             optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
 
-        //public DbSet<Pacientes>? Pacientes { get; set; }
-
+        public DbSet<Roles>? Roles { get; set; }
         //public DbSet<Enfermedades>? Enfermedades { get; set; }
-        
+
     }
 }

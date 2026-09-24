@@ -1,6 +1,8 @@
 CREATE DATABASE db_BitLab;
 GO
 
+
+
 create table Roles(
     [Id] int primary key identity(1,1) not null,
     [NombreRol] varchar(50) not null,
