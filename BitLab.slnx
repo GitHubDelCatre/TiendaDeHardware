@@ -1,5 +1,0 @@
-<Solution>
-  <Project Path="Consola/Consola.csproj" />
-  <Project Path="libreria_BitLab/libreria_BitLab.csproj" />
-  <Project Path="pruebas_BitLab/pruebas_BitLab.csproj" />
-</Solution>
